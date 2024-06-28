@@ -11,13 +11,13 @@
     $min = $no - 1;
     $st = range($no, 40);
     foreach ($st as $num) {
-        echo "เลขที่ $num<br>";
+        echo "เลขที่ $num <br>";
     }
     if ($num > 1) {
-        $my = 1;
-        $st = range($my, $no - 1);
-        foreach ($st as $new) {
-            echo "เลขที่ $new<br>";
+        $max = 1;
+        $opt = range($max, $min);
+        foreach ($opt as $new) {
+            echo "เลขที่ $new <br>";
         }
     }
     ?>
